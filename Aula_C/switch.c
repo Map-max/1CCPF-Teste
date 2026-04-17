@@ -1,15 +1,19 @@
 #include<stdio.h> 
 
-int main(){
-
-    int opcao, presenca;
-    float nota_1, nota_2, media;
+void menu (){
     printf("--- MENU ---\n");
     printf("1 - MEDIA DO ALUNO\n");
     printf("2 - VERIFICADOR DE PRESENCA\n");
     printf("SELECIONE UMA DAS OPCOES ACIMA: ");
+
+}
+
+int main(){
+    int opcao, presenca;
+    float nota_1, nota_2, media;
+    menu ();
     scanf("%d", &opcao);
-    
+
     switch(opcao){
 
         case 1: 
